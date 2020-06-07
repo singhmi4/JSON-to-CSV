@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON to CSV Convertor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JSON to CSV Converter</h1>
+        <h2>Enter JSON String Below:</h2>
+        <textarea name="JSON-input" id="JSON-input" cols="120" rows="10" placeholder="Example Format: [{'color': 'black', 'category': 'hue'}, {'color': 'white', 'category': 'value'}]"></textarea>
+        <button id="submit-JSON">Convert to CSV!</button>
+        <textarea name="CSV-output" id="CSV-output" cols="120" rows="10" placeholder="CSV string can be copied here..."></textarea>
+        <button id="copy-csv">Copy CSV to Clipboard!</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
